@@ -1,0 +1,1425 @@
+Dependencies for Project 'SRAM', Target 'Target 1': (DO NOT MODIFY !)
+F (.\main.c)(0x53DF7BD7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\main.o" --omf_browse "..\OBJ\main.crf" --depend "..\OBJ\main.d")
+I (..\HARDWARE\LED\led.h)(0x53CF073E)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x50513B7A)
+I (..\SYSTEM\delay\xdelay.h)(0x53D6F067)
+I (..\HARDWARE\KEY\key.h)(0x53DF49AB)
+I (..\HARDWARE\LCD\lcd.h)(0x53D5E2B4)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\HARDWARE\SRAM\sram.h)(0x505955F4)
+I (..\MALLOC\malloc.h)(0x53DB6AA4)
+I (..\HARDWARE\SIM900A\sim900a.h)(0x53D10B80)
+I (..\HARDWARE\TIMER3\timer3.h)(0x5053001A)
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\HARDWARE\TOUCH\touch.h)(0x53D6F9AC)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x4EA0E599)
+I (..\FATFS\ff.h)(0x4C5E0311)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\FATFS\ffconf.h)(0x53DAF9FE)
+I (..\HARDWARE\FLASH\flash.h)(0x53D71C5B)
+I (..\HARDWARE\RTC\rtc.h)(0x53D99B06)
+I (..\HARDWARE\BEEP\beep.h)(0x53CFCD16)
+I (..\FONT\ftfile.h)(0x53D73C88)
+I (..\FIFO\fifo.h)(0x53DB5ED9)
+I (..\HARDWARE\USART2\usart2.h)(0x53DB9881)
+I (..\GUIAPP\GUIAPP_Main.h)(0x53DF0052)
+I (..\emWIN_GUI\inc\DIALOG.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM_GUI.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\BUTTON.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DIALOG_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WIDGET.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Private.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD_Protected.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Debug.h)(0x528BBEA9)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stddef.h)(0x50F96150)
+I (..\emWIN_GUI\inc\SCROLLBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CALENDAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHECKBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSECOLOR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSEFILE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DROPDOWN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\LISTBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\EDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\FRAMEWIN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GRAPH.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\HEADER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\ICONVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\IMAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTWHEEL.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MENU.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIEDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIPAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\PROGBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\RADIO.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\SLIDER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\SPINBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TEXT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TREEVIEW.h)(0x528BBEA9)
+F (.\stm32f10x_it.c)(0x53DAF700)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_it.o" --omf_browse "..\OBJ\stm32f10x_it.crf" --depend "..\OBJ\stm32f10x_it.d")
+I (stm32f10x_it.h)(0x4D99A426)
+I (stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x4EA0E599)
+F (.\system_stm32f10x.c)(0x4D99A426)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\system_stm32f10x.o" --omf_browse "..\OBJ\system_stm32f10x.crf" --depend "..\OBJ\system_stm32f10x.d")
+I (stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (system_stm32f10x.h)(0x4D783CAA)
+I (stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\LED\led.c)(0x53CF0754)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\led.o" --omf_browse "..\OBJ\led.crf" --depend "..\OBJ\led.d")
+I (..\HARDWARE\LED\led.h)(0x53CF073E)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\KEY\key.c)(0x53DF7C6E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\key.o" --omf_browse "..\OBJ\key.crf" --depend "..\OBJ\key.d")
+I (..\HARDWARE\KEY\key.h)(0x53DF49AB)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x50513B7A)
+I (..\HARDWARE\LED\led.h)(0x53CF073E)
+I (..\GUIAPP\GUIAPP_Main.h)(0x53DF0052)
+I (..\emWIN_GUI\inc\DIALOG.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\WM_GUI.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\BUTTON.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DIALOG_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WIDGET.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Private.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD_Protected.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Debug.h)(0x528BBEA9)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stddef.h)(0x50F96150)
+I (..\emWIN_GUI\inc\SCROLLBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CALENDAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHECKBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSECOLOR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSEFILE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DROPDOWN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\LISTBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\EDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\FRAMEWIN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GRAPH.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\HEADER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\ICONVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\IMAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTWHEEL.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MENU.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIEDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIPAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\PROGBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\RADIO.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\SLIDER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\SPINBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TEXT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TREEVIEW.h)(0x528BBEA9)
+I (..\FATFS\ff.h)(0x4C5E0311)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\FATFS\ffconf.h)(0x53DAF9FE)
+F (..\HARDWARE\LCD\lcd.c)(0x53D5E3A5)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\lcd.o" --omf_browse "..\OBJ\lcd.crf" --depend "..\OBJ\lcd.d")
+I (..\HARDWARE\LCD\lcd.h)(0x53D5E2B4)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (..\HARDWARE\LCD\font.h)(0x50386A44)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\SYSTEM\delay\delay.h)(0x50513B7A)
+F (..\HARDWARE\SRAM\sram.c)(0x5059737E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\sram.o" --omf_browse "..\OBJ\sram.crf" --depend "..\OBJ\sram.d")
+I (..\HARDWARE\SRAM\sram.h)(0x505955F4)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+F (..\HARDWARE\SIM900A\sim900a.c)(0x53DB7807)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\sim900a.o" --omf_browse "..\OBJ\sim900a.crf" --depend "..\OBJ\sim900a.d")
+I (..\HARDWARE\SIM900A\sim900a.h)(0x53D10B80)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x50513B7A)
+I (..\HARDWARE\LED\led.h)(0x53CF073E)
+F (..\HARDWARE\TIMER3\timer3.c)(0x53DF50BA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\timer3.o" --omf_browse "..\OBJ\timer3.crf" --depend "..\OBJ\timer3.d")
+I (..\HARDWARE\TIMER3\timer3.h)(0x5053001A)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\TOUCH\touch.c)(0x53D6F985)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\touch.o" --omf_browse "..\OBJ\touch.crf" --depend "..\OBJ\touch.d")
+I (..\HARDWARE\TOUCH\touch.h)(0x53D6F9AC)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\LCD\lcd.h)(0x53D5E2B4)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+I (..\SYSTEM\delay\xdelay.h)(0x53D6F067)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\math.h)(0x50F96150)
+I (..\HARDWARE\24CXX\24cxx.h)(0x50558BF2)
+I (..\HARDWARE\IIC\myiic.h)(0x53D0B573)
+F (..\HARDWARE\24CXX\24cxx.c)(0x50558BF2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\24cxx.o" --omf_browse "..\OBJ\24cxx.crf" --depend "..\OBJ\24cxx.d")
+I (..\HARDWARE\24CXX\24cxx.h)(0x50558BF2)
+I (..\HARDWARE\IIC\myiic.h)(0x53D0B573)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x50513B7A)
+F (..\HARDWARE\IIC\myiic.c)(0x53D0B2C9)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\myiic.o" --omf_browse "..\OBJ\myiic.crf" --depend "..\OBJ\myiic.d")
+I (..\HARDWARE\IIC\myiic.h)(0x53D0B573)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x50513B7A)
+F (..\HARDWARE\SDIO\sdio_sdcard.c)(0x53DAF184)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\sdio_sdcard.o" --omf_browse "..\OBJ\sdio_sdcard.crf" --depend "..\OBJ\sdio_sdcard.d")
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x4EA0E599)
+F (..\HARDWARE\BEEP\beep.c)(0x53CFCC8B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\beep.o" --omf_browse "..\OBJ\beep.crf" --depend "..\OBJ\beep.d")
+I (..\HARDWARE\BEEP\beep.h)(0x53CFCD16)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\HARDWARE\RTC\rtc.c)(0x53DA6ADE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\rtc.o" --omf_browse "..\OBJ\rtc.crf" --depend "..\OBJ\rtc.d")
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x50513B7A)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\HARDWARE\RTC\rtc.h)(0x53D99B06)
+I (..\GUIAPP\GUIAPP_Main.h)(0x53DF0052)
+I (..\emWIN_GUI\inc\DIALOG.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\WM_GUI.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\BUTTON.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DIALOG_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WIDGET.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Private.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD_Protected.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Debug.h)(0x528BBEA9)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stddef.h)(0x50F96150)
+I (..\emWIN_GUI\inc\SCROLLBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CALENDAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHECKBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSECOLOR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSEFILE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DROPDOWN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\LISTBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\EDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\FRAMEWIN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GRAPH.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\HEADER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\ICONVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\IMAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTWHEEL.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MENU.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIEDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIPAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\PROGBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\RADIO.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\SLIDER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\SPINBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TEXT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TREEVIEW.h)(0x528BBEA9)
+I (..\FATFS\ff.h)(0x4C5E0311)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\FATFS\ffconf.h)(0x53DAF9FE)
+F (..\HARDWARE\FLASH\flash.c)(0x53D71A39)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\flash.o" --omf_browse "..\OBJ\flash.crf" --depend "..\OBJ\flash.d")
+I (..\HARDWARE\FLASH\flash.h)(0x53D71C5B)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\delay\delay.h)(0x50513B7A)
+F (..\HARDWARE\USART2\usart2.c)(0x53DB987F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\usart2.o" --omf_browse "..\OBJ\usart2.crf" --depend "..\OBJ\usart2.d")
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\USART2\usart2.h)(0x53DB9881)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+F (..\SYSTEM\delay\delay.c)(0x50513B74)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\delay.o" --omf_browse "..\OBJ\delay.crf" --depend "..\OBJ\delay.d")
+I (..\SYSTEM\delay\delay.h)(0x50513B7A)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\sys\sys.c)(0x5055B57C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\sys.o" --omf_browse "..\OBJ\sys.crf" --depend "..\OBJ\sys.d")
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\SYSTEM\usart\usart.c)(0x53DB9755)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\usart.o" --omf_browse "..\OBJ\usart.crf" --depend "..\OBJ\usart.d")
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\SYSTEM\usart\usart.h)(0x50513AC4)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\HARDWARE\SIM900A\sim900a.h)(0x53D10B80)
+F (..\SYSTEM\delay\xdelay.c)(0x53D6F0A1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\xdelay.o" --omf_browse "..\OBJ\xdelay.crf" --depend "..\OBJ\xdelay.d")
+I (..\SYSTEM\delay\xdelay.h)(0x53D6F067)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\CORE\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\core_cm3.o" --omf_browse "..\OBJ\core_cm3.crf" --depend "..\OBJ\core_cm3.d")
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+F (..\CORE\startup_stm32f10x_hd.s)(0x53DA59DE)(--cpu Cortex-M3 -g --apcs=interwork -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x --list ".\startup_stm32f10x_hd.lst" --xref -o "..\OBJ\startup_stm32f10x_hd.o" --depend "..\OBJ\startup_stm32f10x_hd.d")
+F (..\STM32F10x_FWLib\src\misc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\misc.o" --omf_browse "..\OBJ\misc.crf" --depend "..\OBJ\misc.d")
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_fsmc.c)(0x5039863E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_fsmc.o" --omf_browse "..\OBJ\stm32f10x_fsmc.crf" --depend "..\OBJ\stm32f10x_fsmc.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_gpio.c)(0x4D79EEC6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_gpio.o" --omf_browse "..\OBJ\stm32f10x_gpio.crf" --depend "..\OBJ\stm32f10x_gpio.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_rcc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_rcc.o" --omf_browse "..\OBJ\stm32f10x_rcc.crf" --depend "..\OBJ\stm32f10x_rcc.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_usart.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_usart.o" --omf_browse "..\OBJ\stm32f10x_usart.crf" --depend "..\OBJ\stm32f10x_usart.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_tim.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_tim.o" --omf_browse "..\OBJ\stm32f10x_tim.crf" --depend "..\OBJ\stm32f10x_tim.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_sdio.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_sdio.o" --omf_browse "..\OBJ\stm32f10x_sdio.crf" --depend "..\OBJ\stm32f10x_sdio.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_dma.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_dma.o" --omf_browse "..\OBJ\stm32f10x_dma.crf" --depend "..\OBJ\stm32f10x_dma.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_spi.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_spi.o" --omf_browse "..\OBJ\stm32f10x_spi.crf" --depend "..\OBJ\stm32f10x_spi.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_rtc.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_rtc.o" --omf_browse "..\OBJ\stm32f10x_rtc.crf" --depend "..\OBJ\stm32f10x_rtc.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_bkp.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_bkp.o" --omf_browse "..\OBJ\stm32f10x_bkp.crf" --depend "..\OBJ\stm32f10x_bkp.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_pwr.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_pwr.o" --omf_browse "..\OBJ\stm32f10x_pwr.crf" --depend "..\OBJ\stm32f10x_pwr.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\STM32F10x_FWLib\src\stm32f10x_exti.c)(0x4D783BB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\stm32f10x_exti.o" --omf_browse "..\OBJ\stm32f10x_exti.crf" --depend "..\OBJ\stm32f10x_exti.d")
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\emWIN_GUI\Config\GUIConf.c)(0x53DA1EF6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\guiconf.o" --omf_browse "..\OBJ\guiconf.crf" --depend "..\OBJ\guiconf.d")
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\MALLOC\malloc.h)(0x53DB6AA4)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\emWIN_GUI\Config\LCDConf_FlexColor_Template.c)(0x53D60089)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\lcdconf_flexcolor_template.o" --omf_browse "..\OBJ\lcdconf_flexcolor_template.crf" --depend "..\OBJ\lcdconf_flexcolor_template.d")
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUIDRV_FlexColor.h)(0x528BBEA9)
+I (..\HARDWARE\LCD\lcd.h)(0x53D5E2B4)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+F (..\emWIN_GUI\Lib\STemWin522_CM3_Keil.lib)(0x528BBEA3)()
+F (..\emWIN_GUI\OS\GUI_X.c)(0x53D5E7E6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\gui_x.o" --omf_browse "..\OBJ\gui_x.crf" --depend "..\OBJ\gui_x.d")
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+F (..\emWIN_GUI\OS\GUI_X_Touch_Analog.c)(0x53D6F9A3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\gui_x_touch_analog.o" --omf_browse "..\OBJ\gui_x_touch_analog.crf" --depend "..\OBJ\gui_x_touch_analog.d")
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\HARDWARE\TOUCH\touch.h)(0x53D6F9AC)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\MALLOC\malloc.c)(0x505975D0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\malloc.o" --omf_browse "..\OBJ\malloc.crf" --depend "..\OBJ\malloc.d")
+I (..\MALLOC\malloc.h)(0x53DB6AA4)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+F (..\FATFS\ff.c)(0x4C5D1344)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\ff.o" --omf_browse "..\OBJ\ff.crf" --depend "..\OBJ\ff.d")
+I (..\FATFS\ff.h)(0x4C5E0311)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\FATFS\ffconf.h)(0x53DAF9FE)
+I (..\FATFS\diskio.h)(0x4C5E0301)
+F (..\FATFS\diskio.c)(0x53DAF6E8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\diskio.o" --omf_browse "..\OBJ\diskio.crf" --depend "..\OBJ\diskio.d")
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\FATFS\diskio.h)(0x4C5E0301)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\HARDWARE\SDIO\sdio_sdcard.h)(0x4EA0E599)
+I (..\HARDWARE\FLASH\flash.h)(0x53D71C5B)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+F (..\FATFS\option\mycc936.c)(0x53D751A0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\mycc936.o" --omf_browse "..\OBJ\mycc936.crf" --depend "..\OBJ\mycc936.d")
+I (..\FATFS\ff.h)(0x4C5E0311)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\FATFS\ffconf.h)(0x53DAF9FE)
+I (..\FONT\ftfile.h)(0x53D73C88)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\FLASH\flash.h)(0x53D71C5B)
+F (..\FONT\ftfile.c)(0x53D74B7F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\ftfile.o" --omf_browse "..\OBJ\ftfile.crf" --depend "..\OBJ\ftfile.d")
+I (..\FONT\ftfile.h)(0x53D73C88)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\FATFS\ff.h)(0x4C5E0311)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\FATFS\ffconf.h)(0x53DAF9FE)
+I (..\HARDWARE\FLASH\flash.h)(0x53D71C5B)
+I (..\MALLOC\malloc.h)(0x53DB6AA4)
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+F (..\FONT\font_change.c)(0x53DEE245)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\font_change.o" --omf_browse "..\OBJ\font_change.crf" --depend "..\OBJ\font_change.d")
+I (..\FONT\font_change.h)(0x53DEE22B)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\MALLOC\malloc.h)(0x53DB6AA4)
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\FATFS\ff.h)(0x4C5E0311)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\FATFS\ffconf.h)(0x53DAF9FE)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+F (..\GUIAPP\GUIAPP_Main.c)(0x53E5C2DC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\guiapp_main.o" --omf_browse "..\OBJ\guiapp_main.crf" --depend "..\OBJ\guiapp_main.d")
+I (..\GUIAPP\GUIAPP_Main.h)(0x53DF0052)
+I (..\emWIN_GUI\inc\DIALOG.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\WM_GUI.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\BUTTON.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DIALOG_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WIDGET.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Private.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD_Protected.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Debug.h)(0x528BBEA9)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stddef.h)(0x50F96150)
+I (..\emWIN_GUI\inc\SCROLLBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CALENDAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHECKBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSECOLOR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSEFILE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DROPDOWN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\LISTBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\EDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\FRAMEWIN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GRAPH.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\HEADER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\ICONVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\IMAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTWHEEL.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MENU.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIEDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIPAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\PROGBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\RADIO.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\SLIDER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\SPINBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TEXT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TREEVIEW.h)(0x528BBEA9)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\FATFS\ff.h)(0x4C5E0311)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\FATFS\ffconf.h)(0x53DAF9FE)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (..\HARDWARE\RTC\rtc.h)(0x53D99B06)
+I (..\HARDWARE\SIM900A\sim900a.h)(0x53D10B80)
+I (..\FIFO\fifo.h)(0x53DB5ED9)
+I (..\FONT\font_change.h)(0x53DEE22B)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (..\GUIAPP\GUIAPP_MEASURE.h)(0x53DF76AB)
+I (..\GUIAPP\GUIAPP_DISPLAY.h)(0x53E497C2)
+I (..\GUIAPP\GUIAPP_DEMO.h)(0x53DF3813)
+F (..\GUIAPP\GUIAPP_DEMO.c)(0x53DEF9D8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\guiapp_demo.o" --omf_browse "..\OBJ\guiapp_demo.crf" --depend "..\OBJ\guiapp_demo.d")
+I (..\emWIN_GUI\inc\DIALOG.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\WM_GUI.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\BUTTON.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DIALOG_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WIDGET.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Private.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD_Protected.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Debug.h)(0x528BBEA9)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stddef.h)(0x50F96150)
+I (..\emWIN_GUI\inc\SCROLLBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CALENDAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHECKBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSECOLOR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSEFILE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DROPDOWN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\LISTBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\EDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\FRAMEWIN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GRAPH.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\HEADER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\ICONVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\IMAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTWHEEL.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MENU.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIEDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIPAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\PROGBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\RADIO.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\SLIDER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\SPINBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TEXT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TREEVIEW.h)(0x528BBEA9)
+I (..\GUIAPP\GUIAPP_DEMO.h)(0x53DF3813)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\FATFS\ff.h)(0x4C5E0311)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\FATFS\ffconf.h)(0x53DAF9FE)
+I (..\GUIAPP\GUIAPP_MAIN.h)(0x53DF0052)
+F (..\GUIAPP\GUIAPP_MEASURE.c)(0x53DF766A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\guiapp_measure.o" --omf_browse "..\OBJ\guiapp_measure.crf" --depend "..\OBJ\guiapp_measure.d")
+I (..\emWIN_GUI\inc\DIALOG.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\WM_GUI.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\BUTTON.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DIALOG_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WIDGET.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Private.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD_Protected.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Debug.h)(0x528BBEA9)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stddef.h)(0x50F96150)
+I (..\emWIN_GUI\inc\SCROLLBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CALENDAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHECKBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSECOLOR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSEFILE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DROPDOWN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\LISTBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\EDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\FRAMEWIN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GRAPH.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\HEADER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\ICONVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\IMAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTWHEEL.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MENU.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIEDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIPAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\PROGBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\RADIO.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\SLIDER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\SPINBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TEXT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TREEVIEW.h)(0x528BBEA9)
+I (..\GUIAPP\GUIAPP_MEASURE.h)(0x53DF76AB)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\FATFS\ff.h)(0x4C5E0311)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\FATFS\ffconf.h)(0x53DAF9FE)
+I (..\GUIAPP\GUIAPP_MAIN.h)(0x53DF0052)
+I (..\HARDWARE\RTC\rtc.h)(0x53D99B06)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+F (..\GUIAPP\GUIAPP_DISPLAY.c)(0x53E5A993)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\guiapp_display.o" --omf_browse "..\OBJ\guiapp_display.crf" --depend "..\OBJ\guiapp_display.d")
+I (..\emWIN_GUI\inc\DIALOG.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_ConfDefaults.h)(0x53D5D4C8)
+I (..\emWIN_GUI\Config\GUIConf.h)(0x53DA5BC3)
+I (..\emWIN_GUI\inc\GUI_Type.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\Global.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\WM_GUI.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI.h)(0x53D5E864)
+I (..\emWIN_GUI\inc\GUI_Version.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\BUTTON.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DIALOG_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WIDGET.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\WM_Intern.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Private.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LCD_Protected.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\GUI_Debug.h)(0x528BBEA9)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stddef.h)(0x50F96150)
+I (..\emWIN_GUI\inc\SCROLLBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CALENDAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHECKBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSECOLOR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\CHOOSEFILE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\DROPDOWN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\LISTBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\EDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\FRAMEWIN.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\GRAPH.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\HEADER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\ICONVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\IMAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTVIEW.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\LISTWHEEL.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MENU.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIEDIT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\MULTIPAGE.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\PROGBAR.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\RADIO.h)(0x528BBEA8)
+I (..\emWIN_GUI\inc\SLIDER.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\SPINBOX.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TEXT.h)(0x528BBEA9)
+I (..\emWIN_GUI\inc\TREEVIEW.h)(0x528BBEA9)
+I (..\GUIAPP\GUIAPP_DISPLAY.h)(0x53E497C2)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\FATFS\ff.h)(0x4C5E0311)
+I (..\FATFS\integer.h)(0x4C5E02F9)
+I (..\FATFS\ffconf.h)(0x53DAF9FE)
+I (..\GUIAPP\GUIAPP_MAIN.h)(0x53DF0052)
+I (..\HARDWARE\RTC\rtc.h)(0x53D99B06)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdio.h)(0x50F96150)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdlib.h)(0x50F96150)
+F (..\FIFO\fifo.c)(0x53DB8ECA)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\HARDWARE\LED -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\USER -I..\STM32F10x_FWLib\inc -I..\CORE -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\DMA -I..\HARDWARE\IIC -I..\HARDWARE\24CXX -I..\HARDWARE\SPI -I..\HARDWARE\FLASH -I..\HARDWARE\TOUCH -I..\HARDWARE\SRAM -I..\HARDWARE\SIM900A -I..\emWIN_GUI\inc -I..\emWIN_GUI\Config -I..\HARDWARE\TIMER3 -I..\HARDWARE\TOUCH -I..\HARDWARE\24CXX -I..\HARDWARE\IIC -I..\DEMO -I..\MALLOC -I..\FATFS -I..\HARDWARE\SDIO -I..\HARDWARE\BEEP -I..\FONT -I..\GUIAPP -I..\GUI_DEMO -I..\FIFO -I..\HARDWARE\USART2 -I C:\Keil4_7\ARM\RV31\INC -I C:\Keil4_7\ARM\CMSIS\Include -I C:\Keil4_7\ARM\Inc\ST\STM32F10x -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o "..\OBJ\fifo.o" --omf_browse "..\OBJ\fifo.crf" --depend "..\OBJ\fifo.d")
+I (..\FIFO\fifo.h)(0x53DB5ED9)
+I (..\SYSTEM\sys\sys.h)(0x5055B57C)
+I (..\USER\stm32f10x.h)(0x4D783CB4)
+I (..\CORE\core_cm3.h)(0x4D523B58)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\stdint.h)(0x50F96150)
+I (..\USER\system_stm32f10x.h)(0x4D783CAA)
+I (..\USER\stm32f10x_conf.h)(0x53DF4617)
+I (..\STM32F10x_FWLib\inc\stm32f10x_bkp.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_dma.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_exti.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_fsmc.h)(0x50388DDC)
+I (..\STM32F10x_FWLib\inc\stm32f10x_gpio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_pwr.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rcc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_sdio.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_spi.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x4D783BB4)
+I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
+I (..\HARDWARE\SRAM\sram.h)(0x505955F4)
+I (..\MALLOC\malloc.h)(0x53DB6AA4)
+I (C:\Keil4_7\ARM\ARMCC\bin\..\include\string.h)(0x50F96150)

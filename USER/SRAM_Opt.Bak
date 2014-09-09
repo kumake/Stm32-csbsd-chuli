@@ -1,0 +1,108 @@
+### uVision2 Project, (C) Keil Software
+### Do not modify !
+
+ cExt (*.c)
+ aExt (*.s*; *.src; *.a*)
+ oExt (*.obj)
+ lExt (*.lib)
+ tExt (*.txt; *.h; *.inc)
+ pExt (*.plm)
+ CppX (*.cpp)
+ DaveTm { 0,0,0,0,0,0,0,0 }
+
+Target (Target 1), 0x0004 // Tools: 'ARM-ADS'
+GRPOPT 1,(USER),1,0,0
+GRPOPT 2,(HARDWARE),1,0,0
+GRPOPT 3,(SYSTEM),1,0,0
+GRPOPT 4,(CORE),0,0,0
+GRPOPT 5,(FWLib),0,0,0
+GRPOPT 6,(emWIN_GUI),0,0,0
+GRPOPT 7,(GUI_DEMO),1,0,0
+GRPOPT 8,(MALLOC),0,0,0
+GRPOPT 9,(FATFS),1,0,0
+GRPOPT 10,(FONT),1,0,0
+GRPOPT 11,(GUIAPP),1,0,0
+GRPOPT 12,(FIFO),1,0,0
+
+OPTFFF 1,1,1,0,0,82,82,0,<.\main.c><main.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,44,0,0,0,44,0,0,0,193,3,0,0,88,1,0,0 }
+OPTFFF 1,2,1,0,0,37,42,0,<.\stm32f10x_it.c><stm32f10x_it.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,132,0,0,0,132,0,0,0,29,4,0,0,180,1,0,0 }
+OPTFFF 1,3,1,436207616,0,0,0,0,<.\system_stm32f10x.c><system_stm32f10x.c> 
+OPTFFF 2,4,1,83886080,0,0,0,0,<..\HARDWARE\LED\led.c><led.c> 
+OPTFFF 2,5,1,0,0,0,0,0,<..\HARDWARE\KEY\key.c><key.c> 
+OPTFFF 2,6,1,0,0,0,0,0,<..\HARDWARE\LCD\lcd.c><lcd.c> 
+OPTFFF 2,7,1,83886080,0,0,0,0,<..\HARDWARE\SRAM\sram.c><sram.c> 
+OPTFFF 2,8,1,234881024,0,0,0,0,<..\HARDWARE\SIM900A\sim900a.c><sim900a.c> 
+OPTFFF 2,9,1,956301312,0,0,0,0,<..\HARDWARE\TIMER3\timer3.c><timer3.c> 
+OPTFFF 2,10,1,0,0,0,0,0,<..\HARDWARE\TOUCH\touch.c><touch.c> 
+OPTFFF 2,11,1,0,0,0,0,0,<..\HARDWARE\24CXX\24cxx.c><24cxx.c> 
+OPTFFF 2,12,1,0,0,0,0,0,<..\HARDWARE\IIC\myiic.c><myiic.c> 
+OPTFFF 2,13,1,0,0,0,0,0,<..\HARDWARE\SDIO\sdio_sdcard.c><sdio_sdcard.c> 
+OPTFFF 2,14,1,0,0,0,0,0,<..\HARDWARE\BEEP\beep.c><beep.c> 
+OPTFFF 2,15,1,268435456,0,97,100,0,<..\HARDWARE\RTC\rtc.c><rtc.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,110,0,0,0,110,0,0,0,7,4,0,0,158,1,0,0 }
+OPTFFF 2,16,1,0,0,0,0,0,<..\HARDWARE\FLASH\flash.c><flash.c> 
+OPTFFF 2,17,1,218103808,0,0,0,0,<..\HARDWARE\USART2\usart2.c><usart2.c> 
+OPTFFF 3,18,1,0,0,0,0,0,<..\SYSTEM\delay\delay.c><delay.c> 
+OPTFFF 3,19,1,50331648,0,0,0,0,<..\SYSTEM\sys\sys.c><sys.c> 
+OPTFFF 3,20,1,838860800,0,0,0,0,<..\SYSTEM\usart\usart.c><usart.c> 
+OPTFFF 3,21,1,0,0,0,0,0,<..\SYSTEM\delay\xdelay.c><xdelay.c> 
+OPTFFF 4,22,1,0,0,0,0,0,<..\CORE\core_cm3.c><core_cm3.c> 
+OPTFFF 4,23,2,0,0,147,151,0,<..\CORE\startup_stm32f10x_hd.s><startup_stm32f10x_hd.s> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,44,0,0,0,44,0,0,0,213,3,0,0,59,1,0,0 }
+OPTFFF 5,24,1,0,0,0,0,0,<..\STM32F10x_FWLib\src\misc.c><misc.c> 
+OPTFFF 5,25,1,603979776,0,0,0,0,<..\STM32F10x_FWLib\src\stm32f10x_fsmc.c><stm32f10x_fsmc.c> 
+OPTFFF 5,26,1,0,0,0,0,0,<..\STM32F10x_FWLib\src\stm32f10x_gpio.c><stm32f10x_gpio.c> 
+OPTFFF 5,27,1,0,0,0,0,0,<..\STM32F10x_FWLib\src\stm32f10x_rcc.c><stm32f10x_rcc.c> 
+OPTFFF 5,28,1,0,0,0,0,0,<..\STM32F10x_FWLib\src\stm32f10x_usart.c><stm32f10x_usart.c> 
+OPTFFF 5,29,1,0,0,0,0,0,<..\STM32F10x_FWLib\src\stm32f10x_tim.c><stm32f10x_tim.c> 
+OPTFFF 5,30,1,0,0,0,0,0,<..\STM32F10x_FWLib\src\stm32f10x_sdio.c><stm32f10x_sdio.c> 
+OPTFFF 5,31,1,0,0,0,0,0,<..\STM32F10x_FWLib\src\stm32f10x_dma.c><stm32f10x_dma.c> 
+OPTFFF 5,32,1,0,0,0,0,0,<..\STM32F10x_FWLib\src\stm32f10x_spi.c><stm32f10x_spi.c> 
+OPTFFF 5,33,1,0,0,0,0,0,<..\STM32F10x_FWLib\src\stm32f10x_rtc.c><stm32f10x_rtc.c> 
+OPTFFF 5,34,1,0,0,0,0,0,<..\STM32F10x_FWLib\src\stm32f10x_bkp.c><stm32f10x_bkp.c> 
+OPTFFF 5,35,1,0,0,0,0,0,<..\STM32F10x_FWLib\src\stm32f10x_pwr.c><stm32f10x_pwr.c> 
+OPTFFF 6,36,1,218103808,0,0,0,0,<..\emWIN_GUI\Config\GUIConf.c><GUIConf.c> 
+OPTFFF 6,37,1,570425344,0,0,0,0,<..\emWIN_GUI\Config\LCDConf_FlexColor_Template.c><LCDConf_FlexColor_Template.c> 
+OPTFFF 6,38,4,0,0,0,0,0,<..\emWIN_GUI\Lib\STemWin522_CM3_Keil.lib><STemWin522_CM3_Keil.lib> 
+OPTFFF 6,39,1,285212672,0,0,0,0,<..\emWIN_GUI\OS\GUI_X.c><GUI_X.c> 
+OPTFFF 6,40,1,285212672,0,0,0,0,<..\emWIN_GUI\OS\GUI_X_Touch_Analog.c><GUI_X_Touch_Analog.c> 
+OPTFFF 8,41,1,1,0,0,0,0,<..\MALLOC\malloc.c><malloc.c> 
+OPTFFF 9,42,1,134217728,0,0,0,0,<..\FATFS\ff.c><ff.c> 
+OPTFFF 9,43,1,218103808,0,0,0,0,<..\FATFS\diskio.c><diskio.c> 
+OPTFFF 9,44,1,0,0,0,0,0,<..\FATFS\option\mycc936.c><mycc936.c> 
+OPTFFF 10,45,1,0,0,0,0,0,<..\FONT\ftfile.c><ftfile.c> 
+OPTFFF 10,46,1,0,0,37,53,0,<..\FONT\font_change.c><font_change.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,66,0,0,0,66,0,0,0,219,3,0,0,114,1,0,0 }
+OPTFFF 11,47,1,654311426,0,1774,1787,0,<..\GUIAPP\GUIAPP_Main.c><GUIAPP_Main.c> { 44,0,0,0,2,0,0,0,3,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,66,0,0,0,66,0,0,0,219,3,0,0,114,1,0,0 }
+OPTFFF 11,48,1,201326592,0,92,92,0,<..\GUIAPP\GUIAPP_DEMO.c><GUIAPP_DEMO.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,110,0,0,0,110,0,0,0,3,4,0,0,154,1,0,0 }
+OPTFFF 12,49,1,1,0,1,4,0,<..\FIFO\fifo.c><fifo.c> { 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,110,0,0,0,110,0,0,0,7,4,0,0,158,1,0,0 }
+
+ExtF <G:\毕业设计代码\数据处理板代码-EMWIN\emWIN_GUI\inc\GUI.h> 1780,1780,0,{ 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,0,0,0,0,0,0,0,0,169,3,0,0,15,1,0,0 }
+ExtF <G:\毕业设计代码\数据处理板代码-EMWIN\FONT\font_change.h> 1,16,0,{ 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,88,0,0,0,88,0,0,0,241,3,0,0,136,1,0,0 }
+ExtF <G:\毕业设计代码\数据处理板代码-EMWIN\FIFO\fifo.h> 1,1,0,{ 44,0,0,0,0,0,0,0,1,0,0,0,255,255,255,255,255,255,255,255,252,255,255,255,233,255,255,255,132,0,0,0,132,0,0,0,29,4,0,0,180,1,0,0 }
+
+TARGOPT 1, (Target 1)
+ ADSCLK=8000000
+  OPTTT 1,1,1,0
+  OPTHX 1,65535,0,0,0
+  OPTLX 79,66,8,<.\>
+  OPTOX 16
+  OPTLT 1,1,1,0,1,1,0,1,0,0,0,0
+  OPTXL 1,1,1,1,1,1,1,0,0
+  OPTFL 1,0,1
+  OPTAX 0
+  OPTDL (SARMCM3.DLL)()(DARMSTM.DLL)(-pSTM32F103ZE)(SARMCM3.DLL)()(TARMSTM.DLL)(-pSTM32F103ZE)
+  OPTDBG 48126,7,()()()()()()()()()() (Segger\JL2CM3.dll)()()()
+  OPTKEY 0,(DLGTARM)((1010=-1,-1,-1,-1,0)(1007=-1,-1,-1,-1,0)(1008=-1,-1,-1,-1,0)(1009=-1,-1,-1,-1,0)(100=-1,-1,-1,-1,0)(110=-1,-1,-1,-1,0)(111=-1,-1,-1,-1,0)(1011=-1,-1,-1,-1,0)(180=-1,-1,-1,-1,0)(120=-1,-1,-1,-1,0)(121=-1,-1,-1,-1,0)(122=-1,-1,-1,-1,0)(123=-1,-1,-1,-1,0)(124=-1,-1,-1,-1,0)(125=-1,-1,-1,-1,0)(126=-1,-1,-1,-1,0)(140=-1,-1,-1,-1,0)(240=-1,-1,-1,-1,0)(190=-1,-1,-1,-1,0)(200=-1,-1,-1,-1,0)(170=-1,-1,-1,-1,0)(130=-1,-1,-1,-1,0)(131=-1,-1,-1,-1,0)(132=-1,-1,-1,-1,0)(133=-1,-1,-1,-1,0)(160=-1,-1,-1,-1,0)(161=-1,-1,-1,-1,0)(162=-1,-1,-1,-1,0)(210=-1,-1,-1,-1,0)(211=-1,-1,-1,-1,0)(220=-1,-1,-1,-1,0)(221=-1,-1,-1,-1,0)(230=-1,-1,-1,-1,0)(231=-1,-1,-1,-1,0)(232=-1,-1,-1,-1,0)(233=-1,-1,-1,-1,0)(150=-1,-1,-1,-1,0)(151=-1,-1,-1,-1,0))
+  OPTKEY 0,(ARMDBGFLAGS)()
+  OPTKEY 0,(DLGUARM)((105=-1,-1,-1,-1,0)(106=-1,-1,-1,-1,0)(107=-1,-1,-1,-1,0))
+  OPTKEY 0,(JL2CM3)(-U20090928 -O78 -S8 -A0 -C0 -JU1 -JI127.0.0.1 -JP0 -N00("ARM CoreSight SW-DP") -D00(1BA01477) -L00(4) -TO18 -TC10000000 -TP21 -TDS8007 -TDT0 -TDC1F -TIEFFFFFFFF -TIP8 -TB1 -TRE0 -FO15 -FD20000000 -FC800 -FN1 -FF0STM32F10x_512 -FS08000000 -FL080000)
+  OPTBB 0,0,1968,1,134268358,0,0,0,0,1,<GUIAPP_Main.c>()()
+  OPTWA 0,1,(SystemCoreClock)
+  OPTWA 1,1,(XBF_Font)
+  OPTWA 2,1,(hWinNow)
+  OPTWA 3,1,(hWin_Demo)
+  OPTMM 1,0,(0x2000ebd0)
+  OPTMM 2,0,(67)
+  OPTDF 0x80
+  OPTLE <>
+  OPTLC <>
+EndOpt
+
